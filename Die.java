@@ -1,33 +1,14 @@
 
 /**
- * Write a description of class Die here.
+ * Creates a die for the game craps.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Lucas Arango
+ * @version 1-15-2020
  */
 public class Die
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Die
-     */
-    public Die()
+    public int roll()
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        return ((int) (Math.random() * 6) + 1);
     }
 }
